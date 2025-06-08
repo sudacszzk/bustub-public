@@ -5,7 +5,6 @@ bustub是一个小型的数据库，主要实现了缓冲区、索引、语句�
 src/buffer/lru_replacer.cpp
 src/buffer/buffer_pool_manager_instance.cpp
 src/buffer/parallel_buffer_pool_manager.cpp
-
 索引部分的实现文件：
 src/storage/page/hash_table_directory_page.cpp
 src/storage/page/hash_table_bucket_page.cpp
