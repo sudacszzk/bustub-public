@@ -3,7 +3,9 @@ bustub是一个小型的数据库，主要实现了缓冲区、索引、语句�
 
 缓冲区部分的实现文件：
 src/buffer/lru_replacer.cpp
+
 src/buffer/buffer_pool_manager_instance.cpp
+
 src/buffer/parallel_buffer_pool_manager.cpp
 
 索引部分的实现文件：
