@@ -22,5 +22,5 @@ src/execution/aggregation_executor.cpp、
 src/execution/limit_executor.cpp、
 src/execution/distinct_executor.cpp
 
-并发控制采用两阶段锁设计，实现未提交读、并发控制部分的实现文件：
+并发控制采用两阶段锁设计，实现未提交读、提交读、可重复读三种隔离级别，通过wound-wait算法预防死锁。并发控制部分的实现文件：
 src/concurrency/lock_manager.cpp
